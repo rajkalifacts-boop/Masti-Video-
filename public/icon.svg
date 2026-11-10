@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c1b"/>
+      <stop offset="50%" stop-color="#15102a"/>
+      <stop offset="100%" stop-color="#05030a"/>
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF007A"/>
+      <stop offset="50%" stop-color="#FE2C55"/>
+      <stop offset="100%" stop-color="#7928CA"/>
+    </linearGradient>
+    <linearGradient id="playGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFE5EC"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#FE2C55" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Background base -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+
+  <!-- Outer Glow Ring -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="url(#brandGrad)" stroke-width="8" opacity="0.35" filter="url(#glow)"/>
+
+  <!-- Brand Gradient Circle with Shadow -->
+  <circle cx="256" cy="256" r="148" fill="url(#brandGrad)" filter="url(#shadow)"/>
+
+  <!-- Reel / Music Note Accent -->
+  <circle cx="340" cy="180" r="18" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="370" cy="220" r="12" fill="#FFFFFF" opacity="0.6"/>
+
+  <!-- Play Triangle in Center -->
+  <path d="M 226 182 C 220 178 212 182 212 190 L 212 322 C 212 330 220 334 226 330 L 332 264 C 338 260 338 252 332 248 Z" fill="url(#playGrad)"/>
+
+  <!-- Stylized M curve on bottom -->
+  <path d="M 180 376 Q 218 350 256 376 Q 294 350 332 376" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+</svg>

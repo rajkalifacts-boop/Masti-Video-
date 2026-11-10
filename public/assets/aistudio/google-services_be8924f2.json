@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "669297294909",
+    "project_id": "masti-video-24740",
+    "storage_bucket": "masti-video-24740.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669297294909:android:b75d451c103922904db454",
+        "android_client_info": {
+          "package_name": "com.mastivideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669297294909-goc4vvb8vdn0uqc2lv3ltlurn2vakva6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpTSbVg9OR6cnu5i4U2Iq40kAZrVBYOx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669297294909-goc4vvb8vdn0uqc2lv3ltlurn2vakva6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

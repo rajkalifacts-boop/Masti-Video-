@@ -1,0 +1,9 @@
+{
+  "name": "Masti Video",
+  "description": "Masti Video - India Entertainment short video platform with reels, music, creator studio, and direct chat.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
